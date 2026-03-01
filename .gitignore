@@ -5,6 +5,7 @@
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
+./.vscode/settings.json
 
 # === Archivos del Sistema ===
 .DS_Store
