@@ -1,0 +1,511 @@
+@base <urn:uc3m.es:miaa> .
+@prefix miaa: <urn:uc3m.es:miaa#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<file:tests/biden-inflation-reduction-act-signing.html> a <urn:uc3m.es:miaa#webPage> .
+<urn:uc3m.es:miaa#entity0_0> a miaa:Organization .
+<urn:uc3m.es:miaa#entity0_0> miaa:entityName "Washington Post" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_0> .
+<urn:uc3m.es:miaa#entity0_1> a miaa:Person .
+<urn:uc3m.es:miaa#entity0_1> miaa:entityName "Amy B Wang" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_1> .
+<urn:uc3m.es:miaa#entity0_2> a miaa:Person .
+<urn:uc3m.es:miaa#entity0_2> miaa:entityName "President Biden" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_2> .
+<urn:uc3m.es:miaa#entity0_3> a miaa:Person .
+<urn:uc3m.es:miaa#entity0_3> miaa:entityName "Sen. Joe Manchin III" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_3> .
+<urn:uc3m.es:miaa#entity0_4> a miaa:Person .
+<urn:uc3m.es:miaa#entity0_4> miaa:entityName "Demetrius Freeman" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_4> .
+<urn:uc3m.es:miaa#entity0_5> a miaa:Person .
+<urn:uc3m.es:miaa#entity0_5> miaa:entityName "Biden" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_5> .
+<urn:uc3m.es:miaa#entity0_6> a miaa:Organization .
+<urn:uc3m.es:miaa#entity0_6> miaa:entityName "White House" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_6> .
+<urn:uc3m.es:miaa#entity0_7> a miaa:Location .
+<urn:uc3m.es:miaa#entity0_7> miaa:entityName "America" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_7> .
+<urn:uc3m.es:miaa#entity0_8> a miaa:Person .
+<urn:uc3m.es:miaa#entity0_8> miaa:entityName "Schumer" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_8> .
+<urn:uc3m.es:miaa#entity0_9> a miaa:Person .
+<urn:uc3m.es:miaa#entity0_9> miaa:entityName "Pelosi" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_9> .
+<urn:uc3m.es:miaa#entity0_10> a miaa:Person .
+<urn:uc3m.es:miaa#entity0_10> miaa:entityName "Cheney" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_10> .
+<urn:uc3m.es:miaa#entity0_11> a miaa:Organization .
+<urn:uc3m.es:miaa#entity0_11> miaa:entityName "House" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_11> .
+<urn:uc3m.es:miaa#entity0_12> a miaa:Person .
+<urn:uc3m.es:miaa#entity0_12> miaa:entityName "bill Friday" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_12> .
+<urn:uc3m.es:miaa#entity0_13> a miaa:Organization .
+<urn:uc3m.es:miaa#entity0_13> miaa:entityName "Majority" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_13> .
+<urn:uc3m.es:miaa#entity0_14> a miaa:Organization .
+<urn:uc3m.es:miaa#entity0_14> miaa:entityName "20-20" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_14> .
+<urn:uc3m.es:miaa#entity0_15> a miaa:Organization .
+<urn:uc3m.es:miaa#entity0_15> miaa:entityName "Minority" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_15> .
+<urn:uc3m.es:miaa#entity0_16> a miaa:Organization .
+<urn:uc3m.es:miaa#entity0_16> miaa:entityName "Senate" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_16> .
+<urn:uc3m.es:miaa#entity0_17> a miaa:Organization .
+<urn:uc3m.es:miaa#entity0_17> miaa:entityName "Contact" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_17> .
+<urn:uc3m.es:miaa#entity0_18> a miaa:Person .
+<urn:uc3m.es:miaa#entity0_18> miaa:entityName "President Harris" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_18> .
+<urn:uc3m.es:miaa#entity0_19> a miaa:Organization .
+<urn:uc3m.es:miaa#entity0_19> miaa:entityName "Policy" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_19> .
+<urn:uc3m.es:miaa#entity0_20> a miaa:Organization .
+<urn:uc3m.es:miaa#entity0_20> miaa:entityName "Wp" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_20> .
+<urn:uc3m.es:miaa#entity0_21> a miaa:Organization .
+<urn:uc3m.es:miaa#entity0_21> miaa:entityName "Congress" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_21> .
+<urn:uc3m.es:miaa#entity0_22> a miaa:Person .
+<urn:uc3m.es:miaa#entity0_22> miaa:entityName "Va" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_22> .
+<urn:uc3m.es:miaa#entity0_23> a miaa:Person .
+<urn:uc3m.es:miaa#entity0_23> miaa:entityName "W.Va" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_23> .
+<urn:uc3m.es:miaa#entity0_24> a miaa:Person .
+<urn:uc3m.es:miaa#entity0_24> miaa:entityName "Manchin" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_24> .
+<urn:uc3m.es:miaa#entity0_25> a miaa:Person .
+<urn:uc3m.es:miaa#entity0_25> miaa:entityName "Charles E. Schumer" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_25> .
+<urn:uc3m.es:miaa#entity0_26> a miaa:Location .
+<urn:uc3m.es:miaa#entity0_26> miaa:entityName "N.Y." .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_26> .
+<urn:uc3m.es:miaa#entity0_27> a miaa:Organization .
+<urn:uc3m.es:miaa#entity0_27> miaa:entityName "Republican" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_27> .
+<urn:uc3m.es:miaa#entity0_28> a miaa:Person .
+<urn:uc3m.es:miaa#entity0_28> miaa:entityName "Donald Trump" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_28> .
+<urn:uc3m.es:miaa#entity0_29> a miaa:Organization .
+<urn:uc3m.es:miaa#entity0_29> miaa:entityName "Oval Office" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_29> .
+<urn:uc3m.es:miaa#entity0_30> a miaa:Organization .
+<urn:uc3m.es:miaa#entity0_30> miaa:entityName "Cabinet" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_30> .
+<urn:uc3m.es:miaa#entity0_31> a miaa:Person .
+<urn:uc3m.es:miaa#entity0_31> miaa:entityName "Trump" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_31> .
+<urn:uc3m.es:miaa#entity0_32> a miaa:Location .
+<urn:uc3m.es:miaa#entity0_32> miaa:entityName "U.S." .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_32> .
+<urn:uc3m.es:miaa#entity0_33> a miaa:Organization .
+<urn:uc3m.es:miaa#entity0_33> miaa:entityName "Internal Revenue Service" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_33> .
+<urn:uc3m.es:miaa#entity0_34> a miaa:Person .
+<urn:uc3m.es:miaa#entity0_34> miaa:entityName "Kevin McCarthy" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_34> .
+<urn:uc3m.es:miaa#entity0_35> a miaa:Location .
+<urn:uc3m.es:miaa#entity0_35> miaa:entityName "Calif." .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_35> .
+<urn:uc3m.es:miaa#entity0_36> a miaa:Organization .
+<urn:uc3m.es:miaa#entity0_36> miaa:entityName "IRS" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_36> .
+<urn:uc3m.es:miaa#entity0_37> a miaa:Organization .
+<urn:uc3m.es:miaa#entity0_37> miaa:entityName "Republicans" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_37> .
+<urn:uc3m.es:miaa#entity0_38> a miaa:Person .
+<urn:uc3m.es:miaa#entity0_38> miaa:entityName "Nancy Pelosi" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_38> .
+<urn:uc3m.es:miaa#entity0_39> a miaa:Person .
+<urn:uc3m.es:miaa#entity0_39> miaa:entityName "Jeff Stein" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_39> .
+<urn:uc3m.es:miaa#entity0_40> a miaa:Person .
+<urn:uc3m.es:miaa#entity0_40> miaa:entityName "Maxine Joselow" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_40> .
+<urn:uc3m.es:miaa#entity0_41> a miaa:Person .
+<urn:uc3m.es:miaa#entity0_41> miaa:entityName "Rachel Roubein" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_41> .
+<urn:uc3m.es:miaa#entity0_42> a miaa:Person .
+<urn:uc3m.es:miaa#entity0_42> miaa:entityName "John Wagner" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_42> .
+<urn:uc3m.es:miaa#entity0_43> a miaa:Person .
+<urn:uc3m.es:miaa#entity0_43> miaa:entityName "Becca Balint" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_43> .
+<urn:uc3m.es:miaa#entity0_44> a miaa:Location .
+<urn:uc3m.es:miaa#entity0_44> miaa:entityName "Vermont" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_44> .
+<urn:uc3m.es:miaa#entity0_45> a miaa:Person .
+<urn:uc3m.es:miaa#entity0_45> miaa:entityName "Justice Jackson" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_45> .
+<urn:uc3m.es:miaa#entity0_46> a miaa:Person .
+<urn:uc3m.es:miaa#entity0_46> miaa:entityName "Annie Leibovitz" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_46> .
+<urn:uc3m.es:miaa#entity0_47> a miaa:Organization .
+<urn:uc3m.es:miaa#entity0_47> miaa:entityName "Fox" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_47> .
+<urn:uc3m.es:miaa#entity0_48> a miaa:Person .
+<urn:uc3m.es:miaa#entity0_48> miaa:entityName "Steve Doocy" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_48> .
+<urn:uc3m.es:miaa#entity0_49> a miaa:Organization .
+<urn:uc3m.es:miaa#entity0_49> miaa:entityName "Media & Community Relations" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_49> .
+<urn:uc3m.es:miaa#entity0_50> a miaa:Organization .
+<urn:uc3m.es:miaa#entity0_50> miaa:entityName "WP Creative Group" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_50> .
+<urn:uc3m.es:miaa#entity0_51> a miaa:Organization .
+<urn:uc3m.es:miaa#entity0_51> miaa:entityName "Mobile & Apps" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_51> .
+<urn:uc3m.es:miaa#entity0_52> a miaa:Organization .
+<urn:uc3m.es:miaa#entity0_52> miaa:entityName "Newsletters & Alerts" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_52> .
+<urn:uc3m.es:miaa#entity0_53> a miaa:Organization .
+<urn:uc3m.es:miaa#entity0_53> miaa:entityName "Reprints & Permissions" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_53> .
+<urn:uc3m.es:miaa#entity0_54> a miaa:Organization .
+<urn:uc3m.es:miaa#entity0_54> miaa:entityName "Contact Customer Care" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_54> .
+<urn:uc3m.es:miaa#entity0_55> a miaa:Organization .
+<urn:uc3m.es:miaa#entity0_55> miaa:entityName "Licensing & Syndication" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_55> .
+<urn:uc3m.es:miaa#entity0_56> a miaa:Location .
+<urn:uc3m.es:miaa#entity0_56> miaa:entityName "Send" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_56> .
+<urn:uc3m.es:miaa#entity0_57> a miaa:Organization .
+<urn:uc3m.es:miaa#entity0_57> miaa:entityName "Submissions & Discussion Policy" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_57> .
+<urn:uc3m.es:miaa#entity0_58> a miaa:Person .
+<urn:uc3m.es:miaa#entity0_58> miaa:entityName "RSS Terms" .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity0_58> .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/America> .
+<https://en.wikipedia.org/wiki/America> a dcterms:Location .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/N.Y.> .
+<https://en.wikipedia.org/wiki/N.Y.> a dcterms:Location .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/U.S.> .
+<https://en.wikipedia.org/wiki/U.S.> a dcterms:Location .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/Calif.> .
+<https://en.wikipedia.org/wiki/Calif.> a dcterms:Location .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/Vermont> .
+<https://en.wikipedia.org/wiki/Vermont> a dcterms:Location .
+<file:tests/biden-inflation-reduction-act-signing.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/W.Va.> .
+<https://en.wikipedia.org/wiki/W.Va.> a dcterms:Location .
+
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> a <urn:uc3m.es:miaa#webPage> .
+<urn:uc3m.es:miaa#entity1_0> a miaa:Location .
+<urn:uc3m.es:miaa#entity1_0> miaa:entityName "south Ukraine" .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity1_0> .
+<urn:uc3m.es:miaa#entity1_1> a miaa:Organization .
+<urn:uc3m.es:miaa#entity1_1> miaa:entityName "CNN" .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity1_1> .
+<urn:uc3m.es:miaa#entity1_2> a miaa:Location .
+<urn:uc3m.es:miaa#entity1_2> miaa:entityName "Africa" .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity1_2> .
+<urn:uc3m.es:miaa#entity1_3> a miaa:Location .
+<urn:uc3m.es:miaa#entity1_3> miaa:entityName "Asia" .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity1_3> .
+<urn:uc3m.es:miaa#entity1_4> a miaa:Location .
+<urn:uc3m.es:miaa#entity1_4> miaa:entityName "Australia" .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity1_4> .
+<urn:uc3m.es:miaa#entity1_5> a miaa:Location .
+<urn:uc3m.es:miaa#entity1_5> miaa:entityName "China" .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity1_5> .
+<urn:uc3m.es:miaa#entity1_6> a miaa:Location .
+<urn:uc3m.es:miaa#entity1_6> miaa:entityName "Europe" .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity1_6> .
+<urn:uc3m.es:miaa#entity1_7> a miaa:Location .
+<urn:uc3m.es:miaa#entity1_7> miaa:entityName "India" .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity1_7> .
+<urn:uc3m.es:miaa#entity1_8> a miaa:Location .
+<urn:uc3m.es:miaa#entity1_8> miaa:entityName "Middle East" .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity1_8> .
+<urn:uc3m.es:miaa#entity1_9> a miaa:Location .
+<urn:uc3m.es:miaa#entity1_9> miaa:entityName "United Kingdom" .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity1_9> .
+<urn:uc3m.es:miaa#entity1_10> a miaa:Location .
+<urn:uc3m.es:miaa#entity1_10> miaa:entityName "US" .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity1_10> .
+<urn:uc3m.es:miaa#entity1_11> a miaa:Organization .
+<urn:uc3m.es:miaa#entity1_11> miaa:entityName "Business Markets" .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity1_11> .
+<urn:uc3m.es:miaa#entity1_12> a miaa:Organization .
+<urn:uc3m.es:miaa#entity1_12> miaa:entityName "Videos Live TV" .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity1_12> .
+<urn:uc3m.es:miaa#entity1_13> a miaa:Organization .
+<urn:uc3m.es:miaa#entity1_13> miaa:entityName "Freedom Project" .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity1_13> .
+<urn:uc3m.es:miaa#entity1_14> a miaa:Person .
+<urn:uc3m.es:miaa#entity1_14> miaa:entityName "Tim Lister" .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity1_14> .
+<urn:uc3m.es:miaa#entity1_15> a miaa:Location .
+<urn:uc3m.es:miaa#entity1_15> miaa:entityName "Russia" .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity1_15> .
+<urn:uc3m.es:miaa#entity1_16> a miaa:Location .
+<urn:uc3m.es:miaa#entity1_16> miaa:entityName "Ukraine" .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity1_16> .
+<urn:uc3m.es:miaa#entity1_17> a miaa:Location .
+<urn:uc3m.es:miaa#entity1_17> miaa:entityName "southern Ukraine" .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity1_17> .
+<urn:uc3m.es:miaa#entity1_18> a miaa:Location .
+<urn:uc3m.es:miaa#entity1_18> miaa:entityName "Dnipro River" .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity1_18> .
+<urn:uc3m.es:miaa#entity1_19> a miaa:Person .
+<urn:uc3m.es:miaa#entity1_19> miaa:entityName "Yuri Sobolevsky" .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity1_19> .
+<urn:uc3m.es:miaa#entity1_20> a miaa:Person .
+<urn:uc3m.es:miaa#entity1_20> miaa:entityName "Nova Kakhovka" .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity1_20> .
+<urn:uc3m.es:miaa#entity1_21> a miaa:Location .
+<urn:uc3m.es:miaa#entity1_21> miaa:entityName "Dzankhoy" .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity1_21> .
+<urn:uc3m.es:miaa#entity1_22> a miaa:Person .
+<urn:uc3m.es:miaa#entity1_22> miaa:entityName "Ivan Fedorov" .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity1_22> .
+<urn:uc3m.es:miaa#entity1_23> a miaa:Organization .
+<urn:uc3m.es:miaa#entity1_23> miaa:entityName "Operational Command" .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity1_23> .
+<urn:uc3m.es:miaa#entity1_24> a miaa:Location .
+<urn:uc3m.es:miaa#entity1_24> miaa:entityName "United States" .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity1_24> .
+<urn:uc3m.es:miaa#entity1_25> a miaa:Person .
+<urn:uc3m.es:miaa#entity1_25> miaa:entityName "Olga Voitovych" .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity1_25> .
+<urn:uc3m.es:miaa#entity1_26> a miaa:Person .
+<urn:uc3m.es:miaa#entity1_26> miaa:entityName "Mariya Knight" .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity1_26> .
+<urn:uc3m.es:miaa#entity1_27> a miaa:Person .
+<urn:uc3m.es:miaa#entity1_27> miaa:entityName "Crimea" .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity1_27> .
+<urn:uc3m.es:miaa#entity1_28> a miaa:Person .
+<urn:uc3m.es:miaa#entity1_28> miaa:entityName "Fedorov" .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity1_28> .
+<urn:uc3m.es:miaa#entity1_29> a miaa:Location .
+<urn:uc3m.es:miaa#entity1_29> miaa:entityName "Kherson" .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity1_29> .
+<urn:uc3m.es:miaa#entity1_30> a miaa:Organization .
+<urn:uc3m.es:miaa#entity1_30> miaa:entityName "Videos" .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity1_30> .
+<urn:uc3m.es:miaa#entity1_31> a miaa:Location .
+<urn:uc3m.es:miaa#entity1_31> miaa:entityName "Us" .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity1_31> .
+<urn:uc3m.es:miaa#entity1_32> a miaa:Organization .
+<urn:uc3m.es:miaa#entity1_32> miaa:entityName "Cable News Network" .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity1_32> .
+<urn:uc3m.es:miaa#entity1_33> a miaa:Organization .
+<urn:uc3m.es:miaa#entity1_33> miaa:entityName "Warner Bros." .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity1_33> .
+<urn:uc3m.es:miaa#entity1_34> a miaa:Organization .
+<urn:uc3m.es:miaa#entity1_34> miaa:entityName "Discovery Company" .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity1_34> .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/South_Ukraine> .
+<https://en.wikipedia.org/wiki/South_Ukraine> a dcterms:Location .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/Africa> .
+<https://en.wikipedia.org/wiki/Africa> a dcterms:Location .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/Asia> .
+<https://en.wikipedia.org/wiki/Asia> a dcterms:Location .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/Australia> .
+<https://en.wikipedia.org/wiki/Australia> a dcterms:Location .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/China> .
+<https://en.wikipedia.org/wiki/China> a dcterms:Location .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/Europe> .
+<https://en.wikipedia.org/wiki/Europe> a dcterms:Location .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/India> .
+<https://en.wikipedia.org/wiki/India> a dcterms:Location .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/Middle_East> .
+<https://en.wikipedia.org/wiki/Middle_East> a dcterms:Location .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/United_Kingdom> .
+<https://en.wikipedia.org/wiki/United_Kingdom> a dcterms:Location .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/United_States> .
+<https://en.wikipedia.org/wiki/United_States> a dcterms:Location .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/Russia> .
+<https://en.wikipedia.org/wiki/Russia> a dcterms:Location .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/Ukraine> .
+<https://en.wikipedia.org/wiki/Ukraine> a dcterms:Location .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/Dnipro> .
+<https://en.wikipedia.org/wiki/Dnipro> a dcterms:Location .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/Dzankhoy> .
+<https://en.wikipedia.org/wiki/Dzankhoy> a dcterms:Location .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/Crimea> .
+<https://en.wikipedia.org/wiki/Crimea> a dcterms:Location .
+<file:tests/ukraine-kherson-russia-bridge-strikes-intl-CNN.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/Kherson> .
+<https://en.wikipedia.org/wiki/Kherson> a dcterms:Location .
+
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> a <urn:uc3m.es:miaa#webPage> .
+<urn:uc3m.es:miaa#entity2_0> a miaa:Organization .
+<urn:uc3m.es:miaa#entity2_0> miaa:entityName "US Air Force" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_0> .
+<urn:uc3m.es:miaa#entity2_1> a miaa:Location .
+<urn:uc3m.es:miaa#entity2_1> miaa:entityName "US" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_1> .
+<urn:uc3m.es:miaa#entity2_2> a miaa:Organization .
+<urn:uc3m.es:miaa#entity2_2> miaa:entityName "CNN" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_2> .
+<urn:uc3m.es:miaa#entity2_3> a miaa:Location .
+<urn:uc3m.es:miaa#entity2_3> miaa:entityName "Africa" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_3> .
+<urn:uc3m.es:miaa#entity2_4> a miaa:Location .
+<urn:uc3m.es:miaa#entity2_4> miaa:entityName "Asia" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_4> .
+<urn:uc3m.es:miaa#entity2_5> a miaa:Location .
+<urn:uc3m.es:miaa#entity2_5> miaa:entityName "Australia" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_5> .
+<urn:uc3m.es:miaa#entity2_6> a miaa:Location .
+<urn:uc3m.es:miaa#entity2_6> miaa:entityName "China" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_6> .
+<urn:uc3m.es:miaa#entity2_7> a miaa:Location .
+<urn:uc3m.es:miaa#entity2_7> miaa:entityName "Europe" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_7> .
+<urn:uc3m.es:miaa#entity2_8> a miaa:Location .
+<urn:uc3m.es:miaa#entity2_8> miaa:entityName "India" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_8> .
+<urn:uc3m.es:miaa#entity2_9> a miaa:Location .
+<urn:uc3m.es:miaa#entity2_9> miaa:entityName "Middle East" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_9> .
+<urn:uc3m.es:miaa#entity2_10> a miaa:Location .
+<urn:uc3m.es:miaa#entity2_10> miaa:entityName "United Kingdom" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_10> .
+<urn:uc3m.es:miaa#entity2_11> a miaa:Organization .
+<urn:uc3m.es:miaa#entity2_11> miaa:entityName "Business Markets" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_11> .
+<urn:uc3m.es:miaa#entity2_12> a miaa:Organization .
+<urn:uc3m.es:miaa#entity2_12> miaa:entityName "Videos Live TV" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_12> .
+<urn:uc3m.es:miaa#entity2_13> a miaa:Organization .
+<urn:uc3m.es:miaa#entity2_13> miaa:entityName "Freedom Project" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_13> .
+<urn:uc3m.es:miaa#entity2_14> a miaa:Person .
+<urn:uc3m.es:miaa#entity2_14> miaa:entityName "Michael Callahan" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_14> .
+<urn:uc3m.es:miaa#entity2_15> a miaa:Organization .
+<urn:uc3m.es:miaa#entity2_15> miaa:entityName "CIA" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_15> .
+<urn:uc3m.es:miaa#entity2_16> a miaa:Location .
+<urn:uc3m.es:miaa#entity2_16> miaa:entityName "Mexico" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_16> .
+<urn:uc3m.es:miaa#entity2_17> a miaa:Location .
+<urn:uc3m.es:miaa#entity2_17> miaa:entityName "Kabul" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_17> .
+<urn:uc3m.es:miaa#entity2_18> a miaa:Organization .
+<urn:uc3m.es:miaa#entity2_18> miaa:entityName "Taliban" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_18> .
+<urn:uc3m.es:miaa#entity2_19> a miaa:Location .
+<urn:uc3m.es:miaa#entity2_19> miaa:entityName "Kenya" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_19> .
+<urn:uc3m.es:miaa#entity2_20> a miaa:Organization .
+<urn:uc3m.es:miaa#entity2_20> miaa:entityName "FBI" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_20> .
+<urn:uc3m.es:miaa#entity2_21> a miaa:Location .
+<urn:uc3m.es:miaa#entity2_21> miaa:entityName "Iran" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_21> .
+<urn:uc3m.es:miaa#entity2_22> a miaa:Person .
+<urn:uc3m.es:miaa#entity2_22> miaa:entityName "Salman Rushdie" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_22> .
+<urn:uc3m.es:miaa#entity2_23> a miaa:Person .
+<urn:uc3m.es:miaa#entity2_23> miaa:entityName "Anne Heche" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_23> .
+<urn:uc3m.es:miaa#entity2_24> a miaa:Organization .
+<urn:uc3m.es:miaa#entity2_24> miaa:entityName "Phoenix FBI" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_24> .
+<urn:uc3m.es:miaa#entity2_25> a miaa:Organization .
+<urn:uc3m.es:miaa#entity2_25> miaa:entityName "Air Force Global Strike Command" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_25> .
+<urn:uc3m.es:miaa#entity2_26> a miaa:Location .
+<urn:uc3m.es:miaa#entity2_26> miaa:entityName "intercontinental" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_26> .
+<urn:uc3m.es:miaa#entity2_27> a miaa:Organization .
+<urn:uc3m.es:miaa#entity2_27> miaa:entityName "Air Force" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_27> .
+<urn:uc3m.es:miaa#entity2_28> a miaa:Location .
+<urn:uc3m.es:miaa#entity2_28> miaa:entityName "California" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_28> .
+<urn:uc3m.es:miaa#entity2_29> a miaa:Location .
+<urn:uc3m.es:miaa#entity2_29> miaa:entityName "Marshall Islands" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_29> .
+<urn:uc3m.es:miaa#entity2_30> a miaa:Location .
+<urn:uc3m.es:miaa#entity2_30> miaa:entityName "U.S." .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_30> .
+<urn:uc3m.es:miaa#entity2_31> a miaa:Location .
+<urn:uc3m.es:miaa#entity2_31> miaa:entityName "United States" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_31> .
+<urn:uc3m.es:miaa#entity2_32> a miaa:Person .
+<urn:uc3m.es:miaa#entity2_32> miaa:entityName "Steven Wilson" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_32> .
+<urn:uc3m.es:miaa#entity2_33> a miaa:Organization .
+<urn:uc3m.es:miaa#entity2_33> miaa:entityName "AF Global Strike Command" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_33> .
+<urn:uc3m.es:miaa#entity2_34> a miaa:Organization .
+<urn:uc3m.es:miaa#entity2_34> miaa:entityName "House" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_34> .
+<urn:uc3m.es:miaa#entity2_35> a miaa:Person .
+<urn:uc3m.es:miaa#entity2_35> miaa:entityName "Nancy Pelosi" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_35> .
+<urn:uc3m.es:miaa#entity2_36> a miaa:Location .
+<urn:uc3m.es:miaa#entity2_36> miaa:entityName "Taiwan" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_36> .
+<urn:uc3m.es:miaa#entity2_37> a miaa:Organization .
+<urn:uc3m.es:miaa#entity2_37> miaa:entityName "Videos" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_37> .
+<urn:uc3m.es:miaa#entity2_38> a miaa:Organization .
+<urn:uc3m.es:miaa#entity2_38> miaa:entityName "Us" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_38> .
+<urn:uc3m.es:miaa#entity2_39> a miaa:Person .
+<urn:uc3m.es:miaa#entity2_39> miaa:entityName "verify" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_39> .
+<urn:uc3m.es:miaa#entity2_40> a miaa:Person .
+<urn:uc3m.es:miaa#entity2_40> miaa:entityName "Col. Chris Cruise" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_40> .
+<urn:uc3m.es:miaa#entity2_41> a miaa:Organization .
+<urn:uc3m.es:miaa#entity2_41> miaa:entityName "Flight Test Squadron" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_41> .
+<urn:uc3m.es:miaa#entity2_42> a miaa:Person .
+<urn:uc3m.es:miaa#entity2_42> miaa:entityName "Oren Liebermann" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_42> .
+<urn:uc3m.es:miaa#entity2_43> a miaa:Person .
+<urn:uc3m.es:miaa#entity2_43> miaa:entityName "Barbara Starr" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_43> .
+<urn:uc3m.es:miaa#entity2_44> a miaa:Organization .
+<urn:uc3m.es:miaa#entity2_44> miaa:entityName "Cable News Network" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_44> .
+<urn:uc3m.es:miaa#entity2_45> a miaa:Organization .
+<urn:uc3m.es:miaa#entity2_45> miaa:entityName "Warner Bros." .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_45> .
+<urn:uc3m.es:miaa#entity2_46> a miaa:Organization .
+<urn:uc3m.es:miaa#entity2_46> miaa:entityName "Discovery Company" .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsEntity <urn:uc3m.es:miaa#entity2_46> .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/United_States> .
+<https://en.wikipedia.org/wiki/United_States> a dcterms:Location .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/Africa> .
+<https://en.wikipedia.org/wiki/Africa> a dcterms:Location .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/Asia> .
+<https://en.wikipedia.org/wiki/Asia> a dcterms:Location .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/Australia> .
+<https://en.wikipedia.org/wiki/Australia> a dcterms:Location .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/China> .
+<https://en.wikipedia.org/wiki/China> a dcterms:Location .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/Europe> .
+<https://en.wikipedia.org/wiki/Europe> a dcterms:Location .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/India> .
+<https://en.wikipedia.org/wiki/India> a dcterms:Location .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/Middle_East> .
+<https://en.wikipedia.org/wiki/Middle_East> a dcterms:Location .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/United_Kingdom> .
+<https://en.wikipedia.org/wiki/United_Kingdom> a dcterms:Location .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/Mexico> .
+<https://en.wikipedia.org/wiki/Mexico> a dcterms:Location .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/Kabul> .
+<https://en.wikipedia.org/wiki/Kabul> a dcterms:Location .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/Kenya> .
+<https://en.wikipedia.org/wiki/Kenya> a dcterms:Location .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/Iran> .
+<https://en.wikipedia.org/wiki/Iran> a dcterms:Location .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/California> .
+<https://en.wikipedia.org/wiki/California> a dcterms:Location .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/Marshall_Islands> .
+<https://en.wikipedia.org/wiki/Marshall_Islands> a dcterms:Location .
+<file:tests/us-air-force-nuclear-capable-missile-CNNPolitics.html> miaa:mentionsInstance <https://en.wikipedia.org/wiki/Taiwan> .
+<https://en.wikipedia.org/wiki/Taiwan> a dcterms:Location .
+

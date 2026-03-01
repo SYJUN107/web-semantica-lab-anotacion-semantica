@@ -27,6 +27,7 @@ obj/
 vendor/
 __pycache__/
 .env
+secret.env
 
 # === Otros ===
 .history/

@@ -1,0 +1,26 @@
+@base <urn:uc3m.es:miaa> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<#webPage> rdfs:subClassOf dcterms:BibliographicResource .
+
+<#Entity> a rdfs:Class .
+
+<#Person> rdfs:subClassOf <#Entity> .
+
+<#Location> rdfs:subClassOf <#Entity> .
+
+<#Organization> rdfs:subClassOf <#Entity> .
+
+<#entityName> a rdf:Property ;
+    rdfs:domain <#Entity> ;
+    rdfs:range rdfs:Literal .
+
+<#mentions> a rdf:Property ;
+    rdfs:domain dcterms:BibliographicResource .
+
+<#mentionsInstance> rdfs:subPropertyOf <#mentions> .
+
+<#mentionsEntity> rdfs:subPropertyOf <#mentions> ;
+    rdfs:range <#Entity> .
